@@ -1,0 +1,73 @@
+button {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  border: none;
+  border-radius: 30px;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 700;
+  transition: transform .3s, box-shadow .3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px #00000040;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.range {
+  background-color: #01f;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  transition: background-color .5s;
+}
+
+input {
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  padding: 10px 14px;
+  font-size: 16px;
+  transition: border-color .3s, box-shadow .3s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 6px #4a90e280;
+}
+
+.game-box {
+  cursor: pointer;
+  background: tomato;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  transition: background .3s;
+}
+
+.game-box:active {
+  background: gold;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.box {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+/*# sourceMappingURL=js-31.2cdaf7bc.css.map */
